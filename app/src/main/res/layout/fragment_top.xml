@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d72b78a3"
+    android:orientation="horizontal"
+    tools:context="com.example.project.myapplication.TitleFragment"
+    android:weightSum="1">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Wall of Shame"
+        android:id="@+id/title"
+        android:editable="true"
+        android:layout_weight="0.10" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.80" />
+
+
+    <ImageView
+        android:layout_width="62dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.05"
+        android:src="@drawable/colorcamera"
+        android:id="@+id/camera" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:text="LOGOUT"
+        android:id="@+id/logout"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:paddingTop="20dp"
+    tools:context="com.example.project.myapplication.upload_image_Fragment">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3"
+    android:background="@drawable/imageborder"
+    android:id="@+id/upload"
+    android:scaleType="centerCrop"
+    android:src="@drawable/profileboy"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:hint="Title"
+                android:gravity="bottom"
+                android:layout_weight="0.8"
+                android:textSize="20sp"
+                android:id="@+id/title"
+                android:editable="true"
+                android:focusable="true"
+                android:inputType="textPersonName|textAutoCorrect|textCapCharacters" />
+
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="0.8"
+    android:layout_marginTop="5dp"
+android:orientation="horizontal"
+android:weightSum="2">
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:inputType="date|textAutoCorrect"
+        android:hint="Date"
+        android:textSize="20sp"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:id="@+id/date"
+        android:textColor="#d72b78a3"
+        android:editable="true"
+        android:textStyle="bold"
+
+        android:focusable="true" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="20sp"
+                android:gravity="bottom"
+                android:hint="Location"
+                android:layout_weight="1"
+                android:id="@+id/location"
+                android:editable="true"
+                android:focusable="true"
+                android:inputType="textAutoCorrect|textCapCharacters" />
+</LinearLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="bottom"
+                android:hint="Description"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:id="@+id/description"
+                android:editable="true"
+                android:focusable="true"
+                android:inputType="textMultiLine|textLongMessage|textAutoCorrect|textCapSentences" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="SUBMIT"
+
+            android:background="#d72b78a3"
+            android:layout_marginTop="30dp"
+            android:paddingTop="10dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/submit" />
+
+
+
+</LinearLayout>

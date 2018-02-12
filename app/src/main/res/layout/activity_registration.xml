@@ -1,0 +1,152 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    tools:context=".Register$PlaceholderFragment"
+    >
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:name="com.example.project.myapplication.TitleFragment"
+        android:id="@+id/titleFragment" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.6"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:layout_weight="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.0"
+            android:id="@+id/male"
+            android:src="@drawable/profileboy"/>
+</LinearLayout>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/female"
+            android:src="@drawable/profilegirl"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:id="@+id/name"
+        android:layout_marginTop="5dp"
+        android:hint="Name"
+        android:singleLine="true" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:weightSum="2">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="1">
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/userName"
+       android:layout_weight="0.8"
+        android:textSize="20sp"
+        android:hint="Username"
+        android:inputType="text"
+        android:singleLine="true"
+        />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text = "12"
+            android:textColor="#d72b78a3"
+            android:layout_weight="0.2"
+            android:gravity="center|left"
+            android:textSize="20sp"
+            android:id="@+id/countUserName"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/gender"
+        android:hint="Gender"
+        android:layout_weight="1"/>
+</LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="textPassword"
+        android:layout_weight="1"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:singleLine="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:orientation="horizontal">
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:inputType="textPassword"
+        android:layout_weight="0.9"
+        android:ems="10"
+        android:id="@+id/confirmPassword"
+        android:hint="Confirm Password"
+
+        android:singleLine="true" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/right"
+            android:layout_weight="0.1"
+            android:src="@drawable/rightblue"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="phone"
+        android:layout_weight="1"
+        android:id="@+id/mobile"
+        android:hint="Phone"
+        android:singleLine="true" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:textColor="#FFFFFF"
+        android:text="REGISTER"
+        android:background="#d72b78a3"
+        android:layout_marginTop="10dp"
+        android:id="@+id/register"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+
+
+</LinearLayout>

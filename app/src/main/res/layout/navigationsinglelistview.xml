@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
+
+    android:layout_margin="20dp">
+<ImageView
+    android:layout_width="0dp"
+    android:layout_weight="0.3"
+    android:layout_height="50dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:id="@+id/navigationImage"
+    android:src="@drawable/password"
+    />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1.7"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingRight="10dp"
+        android:weightSum="2">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1.7"
+        android:text="Update"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/navigationName"
+        android:gravity="center|left"
+        android:textSize="17sp"
+        android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.4"
+            android:background="#d72b78a3"
+            android:text="32"
+            android:layout_marginLeft="2dp"
+            android:visibility="invisible"
+            android:layout_gravity="center|bottom"
+            android:gravity="center|left"
+            android:id="@+id/totalImages"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+
+</LinearLayout>

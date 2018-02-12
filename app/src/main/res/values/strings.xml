@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Wall of Shame</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_layout">ListLayout</string>
+    <string-array name="des">
+        <item>"hello"</item>
+        <item>"hello"</item>
+        <item>"hello"</item>
+        <item>"hello"</item>
+        <item>"hello"</item>
+        <item>"hello"</item>
+        <item>"hello"</item>
+        <item>"hello"</item>
+        <item>"hello"</item>
+        <item>"hello"</item>
+    </string-array>
+    <string-array name="comments">
+        <item>"this is 1 comment"</item>
+        <item>"this is 2 comment"</item>
+        <item>"this is 3 comment"</item>
+        <item>"this is 4 comment"</item>
+        <item>"this is 5 comment"</item>
+        <item>"this is 6 comment"</item>
+        <item>"this is 7 comment"</item>
+        <item>"this is 8 comment"</item>
+        <item>"this is 9 comment"</item>
+        <item>"this is 10 comment"</item>
+
+
+    </string-array>
+
+    <string-array name="username">
+        <item>"gaurav"</item>
+        <item>"sujit"</item>
+        <item>"sambhav"</item>
+        <item>"yash"</item>
+        <item>"manoj"</item>
+        <item>"gaurav"</item>
+        <item>"sujit"</item>
+        <item>"sambhav"</item>
+        <item>"yash"</item>
+        <item>"manoj"</item>
+    </string-array>
+
+    <string-array name="navigation">
+        <item>Your Profile</item>
+        <item>Your Images</item>
+        <item>Upload Images</item>
+        <item>All Upload Images</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string-array name="guestnavigation">
+        <item>Sign In</item>
+        <item>Register</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_image_description">ImageDescription</string>
+    <string name="title_activity_upload_activity">upload_activity</string>
+    <string name="title_activity_login_activity">login_activity</string>
+    <string name="title_activity_registration">registration</string>
+    <string name="title_activity_logo">Wall of Shame</string>
+    <string name="title_activity_uploading_option">UploadingOption</string>
+    <string name="title_activity_comment_pop_up">CommentPopUp</string>
+</resources>
